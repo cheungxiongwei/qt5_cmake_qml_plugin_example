@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/qt-project.org/imports">
+        <file>qmldir</file>
+        <file>buttons/TextButton.qml</file>
+        <file>buttons/qmldir</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,15 @@
+# 模块名称，和目录路径一致
+# Module name, consistent with directory path
+module UIKit
+
+# 插件名称，和 cmake 目标一致
+# Plug-in name, consistent with cmake target
+plugin UIKit
+
+# 用于 qml 引擎自动加载插件
+# Used for qml engine to automatically load plug-ins
+classname UIKitPlugin
+
+# 用于 Qt Creator 索引
+# # for Qt Creator index
+typeinfo UIKit.qmltypes
