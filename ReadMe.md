@@ -1,3 +1,6 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/cheungxiongwei/qt5_cmake_qml_plugin_example/blob/main/ReadMe.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/cheungxiongwei/qt5_cmake_qml_plugin_example/blob/main/ReadMe.cn.md)
+
 This Git repository is used to demonstrate an example of creating a QML plugin using CMake as the build system. The plugin consists of UIKit, which includes various UI components that can be utilized in other QML projects. This example showcases how to create a shared library containing UI elements, and how to register them with the QML engine so they can be used in Qt Quick applications.
 
 The project contains a `main.cpp` file for creating an executable that loads the plugin and uses one of its components (a custom TextButton). The CMakeLists.txt files are configured to properly build the plugin and the example application with necessary dependencies, including Qt 5 or Qt 6.
